@@ -22,6 +22,28 @@ describe("test searchForTutorials()", () => {
     );
   });
 
+  it("should return a tutorial matching user's search term on its Title", () => {
+    const searchResult = searchForTutorials('Robert')
+    expect(searchResult).toStrictEqual(
+      [
+        {
+          "id": "02",
+          "link": "www.videotutorials.io/02",
+          "matchCount": 1,
+          "summary": "An exciting, rhubarb themed reading and literacy series.",
+          "tags": [
+            "reading",
+            "literacy",
+            "fruits",
+            "vegetables",
+            "cartoon",
+          ],
+          "title": "Reading Aloud with Robert the Rhubarb",
+        },
+      ]
+    );
+  });
+
   it("should return a collection of tutorials matching user's search term", () => {
     const searchResult = searchForTutorials('Creativity')
     expect(searchResult).toStrictEqual(
@@ -47,23 +69,23 @@ describe("test searchForTutorials()", () => {
   it("should return a collection of tutorials matching user's search term, sorted in order of matchCount", () => {
     const searchResult = searchForTutorials('Maths Magic')
     expect(searchResult[0]).toStrictEqual(
-      { 
+      {
         "id": "05",
         "link": "www.videotutorials.io/05",
-        "matchCount": 4,
+        "matchCount": 6,
         "summary": "A new series that sets up the foundation for an education in magic, through the relatable medium of maths.",
-        "tags": ["magic", "maths"], 
-        "title": "Maths Magic" 
+        "tags": ["magic", "maths"],
+        "title": "Maths Magic"
       }
     );
     expect(searchResult[1]).toStrictEqual(
-      { 
+      {
         "id": "01",
         "link": "www.videotutorials.io/01",
         "matchCount": 1,
         "summary": "A fun series where addition is taught using colourful cartoon animals.",
         "tags": ["maths", "animals", "cartoon"],
-        "title": "Addition and Animals" 
+        "title": "Addition and Animals"
       }
     );
   });

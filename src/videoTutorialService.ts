@@ -8,10 +8,13 @@ export function searchForTutorials(searchTerm: string): VideoTutorialSearchResul
 
   data.forEach((tutorial: VideoTutorial) => {
     let matchCount = 0
-    const lowerCaseTutorialSummaryArray = tutorial.summary.toLowerCase().split(/\W+/)
-      .concat(tutorial.tags)
+    
+    const { title, summary, tags } = tutorial
+    const lowerCaseTutorialTotalContentArray = summary.toLowerCase().split(/\W+/)
+      .concat(title.toLowerCase().split(/\W+/))
+      .concat(tags)
 
-    lowerCaseTutorialSummaryArray.forEach((word: string) => {
+    lowerCaseTutorialTotalContentArray.forEach((word: string) => {
       if (lowerCaseSearchTermArray.includes(word)) {
         matchCount++
       }
