@@ -1,0 +1,27 @@
+{
+  "name": "vid-tute",
+  "version": "1.0.0",
+  "description": "A simple app for fetching and displaying Video Tutorial information.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sim-ware/vid-tute.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sim-ware/vid-tute/issues"
+  },
+  "homepage": "https://github.com/sim-ware/vid-tute#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "ts-jest": "^27.0.3",
+    "typescript": "^4.3.2"
+  }
+}
