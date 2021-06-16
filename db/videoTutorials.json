@@ -4,62 +4,71 @@
     "link": "www.videotutorials.io/01",
     "title": "Addition and Animals",
     "summary": "A fun series where addition is taught using colourful cartoon animals.",
-    "tags": ["maths", "animals", "cartoon"]
+    "tags": ["maths", "animals", "cartoon"],
+    "rating": 3
   },
   {
     "id": "02",
     "link": "www.videotutorials.io/02",
     "title": "Reading Aloud with Robert the Rhubarb",
     "summary": "An exciting, rhubarb themed reading and literacy series.",
-    "tags": ["reading", "literacy", "fruits", "vegetables", "cartoon"]
+    "tags": ["reading", "literacy", "fruits", "vegetables", "cartoon"],
+    "rating": 6
   },
   {
     "id": "03",
     "link": "www.videotutorials.io/03",
     "title": "Vegetables and Fruits Spelling Bee",
     "summary": "A series that aims to teach initial spelling skills using nature's own fruits and vegetables.",
-    "tags": ["reading", "literacy", "spelling", "fruits", "vegetables"]
+    "tags": ["reading", "literacy", "spelling", "fruits", "vegetables"],
+    "rating": 9
   },
   {
     "id": "04",
     "link": "www.videotutorials.io/04",
     "title": "Spelling in Space",
     "summary": "A fun series that teaches spelling skills with exciting objects from space, such as the moon and a rocket.",
-    "tags": ["reading", "literacy", "spelling", "space", "cartoon"]
+    "tags": ["reading", "literacy", "spelling", "space", "cartoon"],
+    "rating": 2
   },
   {
     "id": "05",
     "link": "www.videotutorials.io/05",
     "title": "Maths Magic",
     "summary": "A new series that sets up the foundation for an education in magic, through the relatable medium of maths.",
-    "tags": ["magic", "maths"]
+    "tags": ["magic", "maths"],
+    "rating": 5
   },
   {
     "id": "06",
     "link": "www.videotutorials.io/06",
     "title": "Music Time",
     "summary": "An all-time classic sing-along series that gives children a first sense of the miracle of music.",
-    "tags": ["music", "singing", "creativity"]
+    "tags": ["music", "singing", "creativity"],
+    "rating": 8
   },
   {
     "id": "07",
     "link": "www.videotutorials.io/07",
     "title": "My First Friendship",
     "summary": "A narrative series that aims to build social skills and emotional intelligence through the story of a young child and their first friend.",
-    "tags": ["emotionalIntelligence", "socialSkills", "cartoon"]
+    "tags": ["emotionalIntelligence", "socialSkills", "cartoon"],
+    "rating": 1
   },
   {
     "id": "08",
     "link": "www.videotutorials.io/08",
     "title": "Good Foods - Happy Tum Tum",
     "summary": "A new, research-based learning series on the benefits of a good diet, and how to build one - for kids.",
-    "tags": ["diet", "cartoon"]
+    "tags": ["diet", "cartoon"],
+    "rating": 4
   },
   {
     "id": "09",
     "link": "www.videotutorials.io/09",
     "title": "LEGO - Build and Believe",
     "summary": "A partership with LEGO sees this series teach the joy of building.",
-    "tags": ["creativity"]
+    "tags": ["creativity"],
+    "rating": 7
   }
 ]
